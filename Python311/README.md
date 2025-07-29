@@ -1,4 +1,4 @@
-# RHEM-Snow (coupled with KINEROS2) Demo
+# RHEM-Snow (coupled with KINEROS2)
 
 This example shows how to run RHEM-Snow, both coupled with Kineros2, as well as as a standalone function.
 The standalone version is written purely in python, while the coupled version is written in python (RHEM-Snow)
@@ -29,20 +29,20 @@ where <CLIGEN stm file> is the CLIGEN storm file
 	  <Aspect> is the Aspect (degrees from north, measured clockwise)
 
 
-# Model Codes: 
+## Model Codes: 
 demo_coupledmodel.bat - bat file for running the coupled model
 demo_standalonemodel.bat - bat file for running the standalone model (RHEM-Snow only)
 snow.py - Rhem-snow python codes
 k2_snow_v2.exe - executable for running the combined model
 modpaths.txt - required paths to tell k2_snow_v2.exe where the python installation is located
 
-# Model Input Files:
+## Model Input Files:
 SiteSpecificParameters.csv - contains site specific parameters for RHEM-Snow.  Currently, the only site specific parameter is 
 the rain-snow threshold
 wy485055.stm - the CLIGEN storm file that contains the meteorological forcing data
 data_input_id_17159_485055_201156019020701R2.PAR - the hillslope parameter file for Kineros2
 
-# Model Ouput files:
+## Model Ouput files:
 Kineros2 will output two files, with the name of the par file .csv (which contains annual statistics for runoff and 
 erosion) and _events.csv (which contains information about runoff and erosion for each individual event). RHEM-Snow 
 also optionally generates a csv file that is outputted contains daily statistics about the mass balance (Rainfall 
@@ -54,11 +54,11 @@ In this example, the kineros outputs are saved in Output/data_input_id_17159_485
 Output/data_input_id_17159_485055_201156019020701R2_events.csv and the mass balance file from RHEM-Snow is
 Output/wy485055_table.csv.
 
-# Documentation Files:
+## Documentation Files:
 Documentation.docx - RHEM-Snow Documentation
 Readme.txt - this file
 
-
+## Notes
 Important: This version of RHEM-Snow only works with python 3.11, and the python installation paths need to be 
 set in modpaths.txt
 
