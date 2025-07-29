@@ -1,10 +1,6 @@
 # RHEM-Snow (coupled with KINEROS2)
 
-This example shows how to run RHEM-Snow, both coupled with Kineros2, as well as as a standalone function.
-The standalone version is written purely in python, while the coupled version is written in python (RHEM-Snow)
-and Fortran (Kineros2).  For the coupled model, there is a compiled fortran program (k2_snow_v2.exe) which runs
-the RHEM-Snow python codes (snow.py), and has the python program pass the necissary information about rainfall
-plus snowmelt.  
+This example shows how to run RHEM-Snow, both coupled with Kineros2, as well as as a standalone function.  The standalone version is written purely in python, while the coupled version is written in python (RHEM-Snow) and Fortran (Kineros2).  For the coupled model, there is a compiled fortran program (k2_snow_v2.exe) which runs the RHEM-Snow python codes (snow.py), and has the python program pass the necissary information about rainfall plus snowmelt.  
 
 ## Running the Demo
 There are batch files for running both the coupled and standalone models (demo_coupledmodel.bat and 
