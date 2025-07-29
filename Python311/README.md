@@ -6,7 +6,7 @@ and Fortran (Kineros2).  For the coupled model, there is a compiled fortran prog
 the RHEM-Snow python codes (snow.py), and has the python program pass the necissary information about rainfall
 plus snowmelt.  
 
-# Running the Demo
+## Running the Demo
 There are batch files for running both the coupled and standalone models (demo_coupledmodel.bat and 
 demo_standalonemodel.bat).  The batch files contain examples of how to run k2_snow_v2.exe and snow.py (which are
 in the ModelCodes directory:
