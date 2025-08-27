@@ -1,0 +1,4 @@
+<Path\To\Python313>\Lib
+<Path\To\Python313>\DLLs
+<Path\To\Python313>
+<Path\To\Python313>\Lib\site-packages
